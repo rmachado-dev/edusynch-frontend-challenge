@@ -1,0 +1,13 @@
+body {
+  background: linear-gradient(180deg, #7a57fd 0%, #6135d7 100%);
+  box-shadow: 4px 2px 14px rgba(0, 0, 0, 0.05);
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #fff;
+}
+a{
+    font-family: "Open Sans", sans-serif;
+}
