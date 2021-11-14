@@ -19,9 +19,9 @@ Desenvolver a interface de uma landing page e uma dashboard utilizando ReactJS.
 - Dropdown (mobile)
 
 ## Configurações
-Acesse a pasta do projeto e execute o aplicativo no modo de desenvolvimento: npm start
-Abra http: // localhost: 3000 para visualizá-lo no navegador.
+- Acesse a pasta do projeto e execute o aplicativo no modo de desenvolvimento: npm start
+- Abra http: // localhost: 3000 para visualizá-lo no navegador.
 
-Execute o comando: npm run build 
-Depois disso, execute o comando: npm install -g serve 
-E finalmente: serve -s build 
+- Execute o comando: npm run build 
+- Depois disso, execute o comando: npm install -g serve 
+- E finalmente: serve -s build 
