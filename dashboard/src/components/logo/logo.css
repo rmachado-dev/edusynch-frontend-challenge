@@ -1,0 +1,8 @@
+#detalhes{
+    width: 67px;
+    height: 33px;
+    background: url('../images/bg-logo.png');
+    background-repeat: repeat;
+    position: absolute;
+    left: 55px
+}

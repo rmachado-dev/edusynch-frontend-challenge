@@ -1,0 +1,60 @@
+.botao {
+  width: 186px;
+  height: 30px;
+  border-radius: 4px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  background: rgba(32, 14, 100, 0.3);
+}
+
+.botao-mobile {
+  background-color: unset;
+  border: unset;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.dropstart .dropdown-toggle::before {
+  display: none !important;
+}
+
+#menu {
+  width: 100vw !important;
+  height: 300vh !important;
+  left: -259px !important;
+  border-radius: unset !important;
+  top: 51px !important;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#menu img{
+  opacity: 0.5;
+}
+
+#avatar .btn-primary,
+.btn-primary:focus,
+.btn-primary:hover {
+  background-color: unset !important;
+  color: unset !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#avatar .dropdown-item {
+  margin-top: -8px !important;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #7a57fd;
+}
