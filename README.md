@@ -5,14 +5,23 @@
 <p align="center">
  <a href="#objetivo">Objetivo</a> |
  <a href="#funcionalidades">Funcionalidades</a> |
+ <a href="#configuracoes">Configurações</a> |
 </p>
 
 ## Objetivo
 Desenvolver a interface de uma landing page e uma dashboard utilizando ReactJS.
 
 ## Funcionalidades
-### Landing page:
+### Dashboard
+- Hello Student (seção de bem-vindo e apresentação)
+- Lista de cursos
+- Paginação
+- Dropdown (mobile)
 
-- Ação visual de check dos itens: "I'm a teacher" e "I'm a student";
-- Clicar em "Get Started" e mostrar modal de login;
-- Conteúdo do hamburguer será do modal-menu (versão mobile);
+## Configurações
+Acesse a pasta do projeto e execute o aplicativo no modo de desenvolvimento: npm start
+Abra http: // localhost: 3000 para visualizá-lo no navegador.
+
+Execute o comando: npm run build 
+Depois disso, execute o comando: npm install -g serve 
+E finalmente: serve -s build 
