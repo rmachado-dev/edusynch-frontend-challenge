@@ -1,0 +1,218 @@
+#main {
+  height: 100vh;
+  background-image: url("../images/bg-main.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: auto;
+}
+#img-1 {
+  position: absolute;
+  width: 383.5px;
+  height: 766.99px;
+  left: 90px;
+  top: 200px;
+  background: linear-gradient(180deg, #864efd 0%, rgba(134, 78, 253, 0) 100%);
+  transform: rotate(-21.37deg);
+  border-radius: 0px 500px 0px 500px;
+  z-index: 0;
+  margin: auto;
+  display: block;
+}
+#img-2 {
+  position: absolute;
+  width: 383.5px;
+  height: 766.99px;
+  left: 85px;
+  top: 150px;
+  border-radius: 0px 500px 0px 500px;
+  z-index: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 234, 164, 0) 3.65%,
+    #ffeaa4 100%
+  );
+  opacity: 0.5;
+  margin: auto;
+  display: block;
+}
+#img-3 {
+  position: absolute;
+  width: 384px;
+  height: 767px;
+  left: 110px;
+  top: 150px;
+  background-image: url("../images/image-home.png");
+  background-repeat: no-repeat;
+  z-index: 0;
+  margin: auto;
+  display: block;
+}
+#img-4 {
+  position: absolute;
+  width: 193px;
+  height: 193px;
+  top: 530px;
+  left: 409px;
+  background: linear-gradient(180deg, #ffc700 0%, rgba(255, 199, 0, 0.6) 100%);
+  transform: rotate(-180deg);
+  border-radius: 90px 90px 0px;
+  z-index: 1;
+}
+#img-5 {
+  position: absolute;
+  width: 66px;
+  height: 40px;
+  top: 600px;
+  left: 570px;
+  background: url("../images/bg-detalhe.png");
+  background-repeat: repeat;
+  z-index: 0;
+}
+
+#img-6 {
+  position: absolute;
+  width: 383.5px;
+  height: 766.99px;
+  top: 220px;
+  right: -265px;
+  transform: rotate(-21.37deg);
+  border-radius: 0px 500px 0px 500px;
+  z-index: 0;
+  background: linear-gradient(180deg, #864efd 0%, rgba(134, 78, 253, 0) 100%);
+  transform: rotate(-21.37deg);
+  overflow: hidden;
+}
+#img-7 {
+  position: absolute;
+  width: 383.5px;
+  height: 766.99px;
+  right: -260px;
+  top: 350px;
+  border-radius: 0px 500px 0px 500px;
+  z-index: 0;
+  overflow: hidden;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 234, 164, 0) 3.65%,
+    #ffeaa4 100%
+  );
+}
+
+#main h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 57px;
+  letter-spacing: -0.06em;
+  color: #ffffff;
+}
+#main h2 {
+  font-family: Poppins;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  letter-spacing: -0.06em;
+  color: #ffd74f;
+  text-transform: uppercase;
+}
+
+#main p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 31px;
+  color: #ffffff;
+}
+
+#looking > input {
+  background: #7955e8;
+  border: 1px solid #a68eef;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  height: 56px;
+  color: #fff;
+}
+
+#main ::placeholder {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 31px;
+  color: #ffffff;
+}
+
+.tipo {
+  width: 162px;
+  height: 56px;
+  background: #7955e8;
+  border: 1px solid #a68eef;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border-radius: 4px;
+}
+
+.tipo input[type="radio"] {
+  margin-right: 10px;
+}
+
+#search {
+  width: 209px;
+  height: 56px;
+  background: #ffd74f;
+  border-radius: 4px;
+  border: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #744ff4;
+}
+
+@media (max-width: 768px) {
+  #main h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.06em;
+    color: #ffffff;
+  }
+  #main h2 {
+    font-family: Poppins;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: -0.06em;
+    color: #ffeaa4;
+    text-transform: uppercase;
+  }
+
+  .tipo {
+      width: 135px;
+  }
+  .tipo label {
+   
+  }
+
+
+  #looking > input {
+    width: 100%;
+    height: auto;
+  }
+  #search {
+    width: 100%;
+  }
+  #main ::placeholder {
+    font-size: 14px;
+    line-height: auto;
+  }
+}
