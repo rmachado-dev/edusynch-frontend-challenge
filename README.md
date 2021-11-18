@@ -12,8 +12,14 @@
 Desenvolver a interface de uma landing page e uma dashboard utilizando ReactJS.
 
 ## Funcionalidades
+### Landing Page
+- Navbar com links e botão de acesso no estilo modal
+- Home com imagem destacada, texto de apresentação e formulário de pesquisa segmentado
+- Dropdown (mobile)
+
 ### Dashboard
-- Hello Student (seção de bem-vindo e apresentação)
+- Navbar com link, botão e imagem de perfil com status
+- Home com Bem-vindo e imagens destacadas
 - Lista de cursos
 - Paginação
 - Dropdown (mobile)
@@ -22,7 +28,3 @@ Desenvolver a interface de uma landing page e uma dashboard utilizando ReactJS.
 ### Modo de desenvolvimento
 - Acesse a pasta do projeto e execute o aplicativo no modo de desenvolvimento: npm start
 - Abra http: // localhost: 3000 para visualizá-lo no navegador.
-## Método para publicação
-- Execute o comando: npm run build 
-- Depois disso, execute o comando: npm install -g serve 
-- E finalmente: serve -s build 
