@@ -1,9 +1,9 @@
 #main {
   height: 100vh;
-  background-image: url("../images/bg-main.png");
+  /* background-image: url("../images/bg-main.png");
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: auto;
+  background-size: auto; */
 }
 #img-1 {
   position: absolute;
@@ -199,17 +199,14 @@
   .tipo {
       width: 135px;
   }
-  .tipo label {
-   
-  }
-
+ 
 
   #looking > input {
-    width: 100%;
+    width: 95%;
     height: auto;
   }
   #search {
-    width: 100%;
+    width: 95%;
   }
   #main ::placeholder {
     font-size: 14px;

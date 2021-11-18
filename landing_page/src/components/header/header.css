@@ -14,3 +14,24 @@
   letter-spacing: -0.02em;
   color: #6f48ec;
 }
+
+/* regra para o hamburguer */
+.navbar-dark .navbar-toggler {
+  border-color: transparent;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+#menu-collapse {
+  height: 100vh;
+  background: #200e64;
+  width: 100%;
+  padding: 20px;
+  margin: 0px;
+  margin-left: -12px;
+  margin-top: -40px;
+}
+#menu-collapse i{
+    color: #fff;
+}

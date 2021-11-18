@@ -35,7 +35,8 @@ const Main = () => {
               </div>
 
               <div className="mt-4">
-                <Form className="d-flex justify-content-between d-none d-lg-block">
+                {/* desktop */}
+                <Form className="d-none d-lg-block">
                   <Form.Check
                     checked
                     inline
@@ -55,40 +56,38 @@ const Main = () => {
                   />
                   <button id="search">search</button>
                 </Form>
-
+                
+                {/* mobile */}
                 <Form className="d-flex justify-content-between d-block d-lg-none">
                   <Row>
                     <Col xs={6}>
-                      <Form.Check
-                        checked
-                        inline
-                        label=" i’m a teacher"
-                        name="acesso"
-                        type="radio"
-                        id="teacher"
-                        className="d-flex align-items-center justify-content-center tipo"
-                      />
-                    </Col>
+                  <Form.Check
+                    checked
+                    inline
+                    label=" i’m a teacher"
+                    name="acesso"
+                    type="radio"
+                    id="teacher"
+                    className="d-flex align-items-center justify-content-center tipo"
+                  />
+                  </Col>
                     <Col xs={6}>
-                      <Form.Check
-                        inline
-                        label=" i’m a student"
-                        name="acesso"
-                        type="radio"
-                        id="student"
-                        className="d-flex align-items-center justify-content-center tipo"
-                      />
-                    </Col>
+                  <Form.Check
+                    inline
+                    label=" i’m a student"
+                    name="acesso"
+                    type="radio"
+                    id="student"
+                    className="d-flex align-items-center justify-content-center tipo"
+                  />
+                  </Col>
                   </Row>
+                <button id="search" className="mx-auto d-block mt-4">
+                  search
+                </button>
                 </Form>
-                  <Row>
-                    <Col xs={12}>
-                      <button id="search" className="mx-auto d-block mt-4">search</button>
-                    </Col>
-                  </Row>
               </div>
             </Col>
-
           </Row>
         </Container>
       </section>

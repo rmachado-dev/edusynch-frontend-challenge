@@ -1,0 +1,59 @@
+.botao {
+  background: #ffd74f;
+  box-shadow: 1px 3px 11px -3px rgba(255, 231, 150, 0.45);
+  border-radius: 4px;
+  width: 165px;
+  height: 48px;
+  border: none;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #6f48ec;
+}
+
+#meumodal {
+  background: rgba(255, 255, 255, 0.24);
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 56px;
+  color: #fff;
+}
+
+.modal-content {
+  background: #6a40e4;
+  border-radius: 4px;
+}
+
+.modal-header,
+.modal-footer {
+  border: none;
+}
+
+.modal-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: -0.06em;
+  color: #ffffff;
+}
+.modal-title p {
+  font-style: bold;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffeaa4;
+}
+.form-label {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 31px;
+  color: #ffffff;
+}
