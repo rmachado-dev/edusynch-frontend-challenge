@@ -1,9 +1,9 @@
 #main {
   height: 100vh;
-  /* background-image: url("../images/bg-main.png");
+  background-image: url("../images/bg-main.png");
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: auto; */
+  background-size: auto;
 }
 #img-1 {
   position: absolute;
@@ -148,17 +148,16 @@
 }
 
 .tipo {
-  width: 162px;
   height: 56px;
   background: #7955e8;
   border: 1px solid #a68eef;
-  box-sizing: border-box;
   border-radius: 4px;
-  border-radius: 4px;
+  
 }
 
 .tipo input[type="radio"] {
   margin-right: 10px;
+  margin-left: 0px;
 }
 
 #search {
@@ -197,10 +196,10 @@
   }
 
   .tipo {
-      width: 135px;
+      width: 94%;
+      padding: 15px;
   }
  
-
   #looking > input {
     width: 95%;
     height: auto;
