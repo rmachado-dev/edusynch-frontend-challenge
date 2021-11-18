@@ -16,7 +16,7 @@ const Main = () => {
               <div id="img-5" className="d-none d-lg-block"></div>
             </Col>
             <Col xs={12} lg={6}>
-              <div className="pe-lg-5 mt-lg-5">
+              <div className="pe-lg-5 mt-5">
                 <h1>Find your</h1>
                 <h2>best teacher</h2>
                 <p className="mt-lg-3 pe-lg-5 d-none d-lg-block">
@@ -34,9 +34,10 @@ const Main = () => {
                 </Col>
               </div>
 
-              <div className="mt-4">
+              <div className="mt-4 ">
                 {/* desktop */}
-                <Form className="d-none d-lg-block">
+
+                <Form className="d-none d-lg-block d-flex ">
                   <Form.Check
                     checked
                     inline
@@ -44,7 +45,7 @@ const Main = () => {
                     name="acesso"
                     type="radio"
                     id="teacher"
-                    className="d-flex align-items-center justify-content-center tipo"
+                    className="tipo p-3"
                   />
                   <Form.Check
                     inline
@@ -52,15 +53,13 @@ const Main = () => {
                     name="acesso"
                     type="radio"
                     id="student"
-                    className="d-flex align-items-center justify-content-center tipo"
+                    className="tipo p-3"
                   />
                   <button id="search">search</button>
                 </Form>
-                
+
                 {/* mobile */}
-                <Form className="d-flex justify-content-between d-block d-lg-none">
-                  <Row>
-                    <Col xs={6}>
+                <Form className="d-flex flex-column align-items-center d-block d-lg-none">
                   <Form.Check
                     checked
                     inline
@@ -68,26 +67,23 @@ const Main = () => {
                     name="acesso"
                     type="radio"
                     id="teacher"
-                    className="d-flex align-items-center justify-content-center tipo"
+                    className="tipo"
                   />
-                  </Col>
-                    <Col xs={6}>
                   <Form.Check
                     inline
                     label=" i’m a student"
                     name="acesso"
                     type="radio"
                     id="student"
-                    className="d-flex align-items-center justify-content-center tipo"
+                    className="tipo"
                   />
-                  </Col>
-                  </Row>
-                <button id="search" className="mx-auto d-block mt-4">
-                  search
-                </button>
+                  <button id="search" className="mx-auto d-block mt-4">
+                    search
+                  </button>
                 </Form>
               </div>
             </Col>
+            <Col lg={1}></Col>
           </Row>
         </Container>
       </section>
