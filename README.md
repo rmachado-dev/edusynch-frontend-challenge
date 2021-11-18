@@ -28,4 +28,3 @@ Desenvolver a interface de uma landing page e uma dashboard utilizando ReactJS.
 ### Modo de desenvolvimento
 - Acesse a pasta do projeto e execute o aplicativo no modo de desenvolvimento: npm start
 - Abra http: // localhost: 3000 para visualizá-lo no navegador.
-
