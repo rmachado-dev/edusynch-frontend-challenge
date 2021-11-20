@@ -161,6 +161,11 @@
   margin-right: 5px;
 }
 
+.tipo input[type="radio"] {
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
 #search {
   width: 200px;
   height: 56px;
