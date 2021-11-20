@@ -1,9 +1,9 @@
 #main {
   height: 100vh;
-  /* background-image: url("../images/bg-main.png");
+  background-image: url("../images/bg-main.png");
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: auto; */
+  background-size: auto;
 }
 #img-1 {
   position: absolute;
@@ -178,6 +178,7 @@
 @media (max-width: 768px) {
   #main {
     height: 130vh;
+    background-image: none;
   }
   #main h1 {
     font-family: Poppins;
