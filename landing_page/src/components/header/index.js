@@ -68,7 +68,6 @@ const Header = () => {
                   About Us
                 </Nav.Link>
               </Nav>
-              {/* <button className="botao mx-auto d-block w-100">Get Started</button> */}
               <BotaoModal />
             </div>
           </Navbar.Collapse>
