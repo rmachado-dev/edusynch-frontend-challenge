@@ -89,6 +89,7 @@ const Main = () => {
               </div>
             </Col>
           </Row>
+			 
 			 <Row className="d-block d-lg-none">
 				 <Col xs={12}>
 					 <img src={imagemobile} className="img-fluid mx-auto d-block" />
