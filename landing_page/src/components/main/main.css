@@ -51,8 +51,8 @@
   position: absolute;
   width: 193px;
   height: 193px;
-  top: 530px;
-  left: 409px;
+  top: 620px;
+  left: 385px;
   background: linear-gradient(180deg, #ffc700 0%, rgba(255, 199, 0, 0.6) 100%);
   transform: rotate(-180deg);
   border-radius: 90px 90px 0px;
@@ -60,10 +60,10 @@
 }
 #img-5 {
   position: absolute;
-  width: 66px;
-  height: 40px;
-  top: 600px;
-  left: 570px;
+  width: 70px;
+  height: 45px;
+  top: 685px;
+  left: 545px;
   background: url("../images/bg-detalhe.png");
   background-repeat: repeat;
   z-index: 0;
@@ -148,21 +148,22 @@
 }
 
 .tipo {
-  width: 162px;
+  width: auto;
   height: 56px;
   background: #7955e8;
   border: 1px solid #a68eef;
   box-sizing: border-box;
   border-radius: 4px;
-  border-radius: 4px;
+  padding: 2.5%;
 }
 
 .tipo input[type="radio"] {
-  margin-right: 10px;
+  margin-right: 5px;
+  margin-left: 0px;
 }
 
 #search {
-  width: 209px;
+  width: 200px;
   height: 56px;
   background: #ffd74f;
   border-radius: 4px;
@@ -176,6 +177,9 @@
 }
 
 @media (max-width: 768px) {
+  #main {
+    height: 130vh;
+  }
   #main h1 {
     font-family: Poppins;
     font-style: normal;
@@ -197,16 +201,23 @@
   }
 
   .tipo {
-      width: 135px;
+    width: 100%;
+    padding-top: 12%;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #ffffff;
   }
- 
 
   #looking > input {
-    width: 95%;
-    height: auto;
+    width: 100%;
+    height: 48px;
+    margin: auto;
+    display: block;
   }
   #search {
-    width: 95%;
+    width: 100%;
   }
   #main ::placeholder {
     font-size: 14px;
