@@ -92,7 +92,7 @@ const Main = () => {
 			 
 			 <Row className="d-block d-lg-none">
 				 <Col xs={12}>
-					 <img src={imagemobile} className="img-fluid mx-auto d-block" />
+					 <img src={imagemobile} className="img-fluid mx-auto d-block" alt="imagem"/>
 				 </Col>
 			 </Row>
         </Container>
