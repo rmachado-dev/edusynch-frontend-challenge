@@ -34,9 +34,10 @@ const Main = () => {
                 </Col>
               </div>
 
-              <div className="mt-4">
+              <div className="mt-4 ">
                 {/* desktop */}
-                <Form className="d-none d-lg-block">
+
+                <Form className="d-none d-lg-block d-flex ">
                   <Form.Check
                     checked
                     inline
@@ -88,6 +89,7 @@ const Main = () => {
                 </Form>
               </div>
             </Col>
+            <Col lg={1}></Col>
           </Row>
 			 
 			 <Row className="d-block d-lg-none">
