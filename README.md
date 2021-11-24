@@ -8,6 +8,7 @@
  <a href="#configurações">Configurações</a> |
 </p>
 
+
 ## Objetivo
 Desenvolver a interface de uma landing page e uma dashboard utilizando ReactJS.
 
