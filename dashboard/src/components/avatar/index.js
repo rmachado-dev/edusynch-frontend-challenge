@@ -15,9 +15,9 @@ const Avatarmobile = () => {
       <div id="avatar">
         <Dropdown>
           <Dropdown.Toggle className="botao-mobile d-block d-sm-none align-self-center d-flex">
-            <i class="fas fa-chevron-down align-self-center me-2 d-block d-lg-none"></i>
-            <img src={avatar} className="img-fluid" />
-            <img src={status} className="align-self-start" />
+            <i className="fas fa-chevron-down align-self-center me-2 d-block d-lg-none"></i>
+            <img src={avatar} className="img-fluid" alt="logo" />
+            <img src={status} className="align-self-start" alt="logo" />
           </Dropdown.Toggle>
 
           <Dropdown.Menu id="menu">
@@ -26,15 +26,15 @@ const Avatarmobile = () => {
               className="bg-white py-4 d-flex justify-content-between"
             >
               Change to teacher mode
-              <img src={seta} className="img-fluid pe-4" />
+              <img src={seta} className="img-fluid pe-4" alt="seta" />
             </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </div>
 
       <div className="d-none d-sm-block d-flex align-self-center">
-        <img src={avatar} className="img-fluid" />
-        <img src={status} className="align-self-start mb-4" />
+        <img src={avatar} className="img-fluid" alt="avatar" />
+        <img src={status} className="align-self-start mb-4" alt="avatar" />
       </div>
     </>
   );
