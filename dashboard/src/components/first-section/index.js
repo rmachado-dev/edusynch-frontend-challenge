@@ -43,7 +43,7 @@ const FirstSection = () => {
           </div>
 
           <div>
-            <img src={imagem} className="img-fluid" />
+            <img src={imagem} className="img-fluid" alt="imagem"/>
           </div>
         </div>
       </section>
