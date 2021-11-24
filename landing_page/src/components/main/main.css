@@ -1,9 +1,9 @@
 #main {
   height: 100vh;
-  /* background-image: url("../images/bg-main.png");
+  background-image: url("../images/bg-main.png");
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: auto; */
+  background-size: auto;
 }
 #img-1 {
   position: absolute;
@@ -159,7 +159,28 @@
 
 .tipo input[type="radio"] {
   margin-right: 5px;
-  margin-left: 0px;
+}
+
+.form-check-input:checked[type="radio"] {
+  /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e); */
+  background-image: url("../images/checked.png");
+  background-color: unset;
+  border: none;
+  margin-left: -4px;
+  opacity: 1;
+}
+.form-check-input[type="radio"] {
+  margin-left: -4px;
+  opacity: 0.2;
+}
+
+.form-check-input:focus {
+  border-color: unset;
+  box-shadow: unset;
+}
+
+.form-check-input {
+  font-size: 1.2rem;
 }
 
 #search {
@@ -179,6 +200,7 @@
 @media (max-width: 768px) {
   #main {
     height: 130vh;
+    background-image: none;
   }
   #main h1 {
     font-family: Poppins;
@@ -205,7 +227,7 @@
     padding-top: 12%;
     font-weight: bold;
     font-size: 11px;
-    line-height: 19px;
+    line-height: 28px;
     text-transform: uppercase;
     color: #ffffff;
   }
@@ -222,5 +244,8 @@
   #main ::placeholder {
     font-size: 14px;
     line-height: auto;
+  }
+  .form-check-input[type="radio"], .form-check-input:checked[type="radio"] {
+    margin-left: 0px;
   }
 }
