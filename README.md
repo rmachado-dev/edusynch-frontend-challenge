@@ -5,8 +5,7 @@
 <p align="center">
  <a href="#objetivo">Objetivo</a> |
  <a href="#funcionalidades">Funcionalidades</a> |
- <a href="#configurações">Configurações</a> |
-</p>
+ <a href="#configurações">Configurações</a> </p>
 
 
 ## Objetivo
@@ -27,6 +26,7 @@ Desenvolver a interface de uma landing page e uma dashboard utilizando ReactJS.
 
 ## Configurações
 ### Modo de desenvolvimento
-- Acesse a pasta do projeto e execute o aplicativo no modo de desenvolvimento: npm start
-- Abra http: // localhost: 3000 para visualizá-lo no navegador.
+- Acesse a pasta do projeto e instale as dependências usando ( npm install ou yarn install )
+- Acesse a pasta do projeto e execute o aplicativo no modo de desenvolvimento usando ( npm start ou yarn run start )
+- Abra http://localhost: 3000 para visualizá-lo no navegador.
 
