@@ -1,0 +1,90 @@
+{
+    "cursos": [
+        {
+            "titulo": "Master English: Improve Your Speaking",
+            "imagem": "../images/thumbnail.png",
+            "star_active": "../images/star-active.png",
+            "star_disable": "../images/star-disable.png",
+            "lessons": 10,
+            "id": 1
+        },
+        {
+            "titulo": "Master English: Improve Your Speaking",
+            "imagem": "../images/thumbnail.png",
+            "star_active": "../images/star-active.png",
+            "star_disable": "../images/star-disable.png",
+            "lessons": 10,
+            "id": 2
+        },
+        {
+            "titulo": "Master English: Improve Your Speaking",
+            "imagem": "../images/thumbnail.png",
+            "star_active": "../images/star-active.png",
+            "star_disable": "../images/star-disable.png",
+            "lessons": 10,
+            "id": 3
+        },
+        {
+            "titulo": "Master English: Improve Your Speaking",
+            "imagem": "../images/thumbnail.png",
+            "star_active": "../images/star-active.png",
+            "star_disable": "../images/star-disable.png",
+            "lessons": 10,
+            "id": 4
+        },
+        {
+            "titulo": "Master English: Improve Your Speaking",
+            "imagem": "../images/thumbnail.png",
+            "star_active": "../images/star-active.png",
+            "star_disable": "../images/star-disable.png",
+            "lessons": 10,
+            "id": 5
+        },
+        {
+            "titulo": "Master English: Improve Your Speaking",
+            "imagem": "../images/thumbnail.png",
+            "star_active": "../images/star-active.png",
+            "star_disable": "../images/star-disable.png",
+            "lessons": 10,
+            "id": 6
+        }
+    ],
+    "stars": [
+        {
+            "id": 1,
+            "star_active": "../images/star-active.png",
+            "cursoId": 1
+        },
+        {
+            "id": 2,
+            "star_active": "../images/star-active.png",
+            "cursoId": 1
+        },
+        {
+            "id": 3,
+            "star_active": "../images/star-active.png",
+            "cursoId": 1
+        },
+        {
+            "id": 4,
+            "star_active": "../images/star-active.png",
+            "cursoId": 1
+        },
+        {
+            "id": 5,
+            "star_active": "../images/star-active.png",
+            "cursoId": 2
+        },
+        {
+            "id": 6,
+            "star_active": "../images/star-active.png",
+            "cursoId": 2
+        },
+        {
+            "id": 7,
+            "star_active": "../images/star-active.png",
+            "cursoId": 2
+        }
+              
+    ]
+}
